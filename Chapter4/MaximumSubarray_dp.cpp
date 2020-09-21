@@ -36,4 +36,4 @@ int main() {
     cout << findMaximumSubarray_dp(a) << endl;
 }
 
-// p.s. 如果允许改变a，则该题可以省去dp的内存空间，之间利用a原址生成dp数组
+// p.s. 如果允许改变a，则该题可以省去dp的内存空间，直接利用a原址生成dp数组
