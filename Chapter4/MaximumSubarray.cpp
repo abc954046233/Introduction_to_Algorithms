@@ -9,7 +9,7 @@ using namespace std;
 const int NEGATIVE_INF = -2000000000;
 
 // 约定v[0]存子数组的左端，v[1]存右端，v[2]存子数组的和
-vector<int> findMaxCrossingSubarray(vector<int> a, int low, int mid, int high) {
+vector<int> findMaxCrossingSubarray(vector<int> &a, int low, int mid, int high) {
     // a[i..mid]的sum中的最大值
     int left_sum = NEGATIVE_INF;
     // 使a[i..mid]的sum最大的i
@@ -42,7 +42,7 @@ vector<int> findMaxCrossingSubarray(vector<int> a, int low, int mid, int high) {
 }
 
 // 约定v[0]存子数组的左端，v[1]存右端，v[2]存子数组的和
-vector<int> findMaximumSubarray(vector<int> a, int low, int high) {
+vector<int> findMaximumSubarray(vector<int> &a, int low, int high) {
     if (high == low) {
         vector<int> v0;
         v0.push_back(low);

@@ -7,7 +7,7 @@
 using namespace std;
 
 // 调用函数前需确保!a.empty()
-int findMaximumSubarray_dp(vector<int> a) {
+int findMaximumSubarray_dp(vector<int> &a) {
     // res保存了目前为止最大的连续子数组之和
     int res;
     // dp[i]表示以i结尾的连续子数组中最大的那一个的和
