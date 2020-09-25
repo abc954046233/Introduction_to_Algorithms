@@ -12,6 +12,7 @@ void Strassen(SquareMatrix &a, SquareMatrix &b, SquareMatrix &c);
 // 具体的变化是：
 // a, b, c会变为大小相等且大小为2的幂的三个方阵，不足的地方补零
 // 去除这个副作用并不复杂，这里专注于算法本身，所以并没有实现
+// 注意，矩阵a, b必须可以相乘
 void matrixMultiply(Matrix &a, Matrix &b,
                     vector<vector<int>> &c) {
     // 单元素矩阵直接计算后返回
