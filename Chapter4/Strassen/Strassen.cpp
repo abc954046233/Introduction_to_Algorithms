@@ -21,7 +21,7 @@ void matrixMultiply(Matrix &a, Matrix &b,
         return;
     }
 
-    // 把a, b, c封装为结构体
+    // 把a, b, c封装为struct
     SquareMatrix a_struct(a);
     SquareMatrix b_struct(b);
     clearAndResize(c, a.size());
@@ -30,10 +30,10 @@ void matrixMultiply(Matrix &a, Matrix &b,
     Strassen(a_struct, b_struct, c_struct);
 }
 
-// Strassen三个参数为结构体
+// Strassen三个参数为struct
 // 因为书中Strassen算法采用了利用下标方阵阵进行划分的方法
 // 所以递归函数的参数中必须以某种方式提供方阵的下标来确定方阵的范围
-// 这里把方阵的范围封装到了结构体中
+// 这里把方阵的范围封装到了struct中
 // 如果传入matrixMultiply中的两个矩阵a，b正确
 // 即：a，b是矩阵，且a，b可以相乘
 // 则Strassen中的a, b, c方阵总是具有相同的大小n
