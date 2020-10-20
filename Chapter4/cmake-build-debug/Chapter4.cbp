@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Chapter4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MaximumSubarray">
+				<Option output="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/MaximumSubarray.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 MaximumSubarray"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MaximumSubarray/fast">
+				<Option output="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/MaximumSubarray.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 MaximumSubarray/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MaximumSubarray_dp">
+				<Option output="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/MaximumSubarray_dp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 MaximumSubarray_dp"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MaximumSubarray_dp/fast">
+				<Option output="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/MaximumSubarray_dp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 MaximumSubarray_dp/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Strassen">
+				<Option output="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Strassen.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Strassen"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Strassen/fast">
+				<Option output="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Strassen.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Strassen/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/MaximumSubarray.cpp">
+			<Option target="MaximumSubarray"/>
+		</Unit>
+		<Unit filename="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/MaximumSubarray_dp.cpp">
+			<Option target="MaximumSubarray_dp"/>
+		</Unit>
+		<Unit filename="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/Strassen.cpp">
+			<Option target="Strassen"/>
+		</Unit>
+		<Unit filename="C:/Users/liyang/CLionProjects/Introduction_to_Algorithms/Chapter4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
